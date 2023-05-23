@@ -18,12 +18,6 @@ class MainActivity : AppCompatActivity(R.layout.activity_main) {
 
         Toast.makeText(this, "vuiguiguigigghgyghyghygghyg", Toast.LENGTH_SHORT).show()
 
-        Snackbar.make(binding.root,
-            "Check if the fields are not empty!!!",
-            Snackbar.LENGTH_SHORT)
-            .setBackgroundTint(ContextCompat.getColor(this,
-                R.color.teal_700))
-            .show()
 
     }
 }

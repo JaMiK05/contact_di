@@ -1,6 +1,7 @@
 package uz.gita.contact_di.presentation.screen
 
 import android.os.Bundle
+import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import by.kirich1409.viewbindingdelegate.viewBinding
 import dagger.hilt.android.AndroidEntryPoint
@@ -14,6 +15,8 @@ class MainActivity : AppCompatActivity(R.layout.activity_main) {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+
+        Toast.makeText(this, "fknfk", Toast.LENGTH_SHORT).show()
 
     }
 }

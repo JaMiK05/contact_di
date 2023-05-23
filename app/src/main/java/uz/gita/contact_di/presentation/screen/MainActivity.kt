@@ -16,7 +16,7 @@ class MainActivity : AppCompatActivity(R.layout.activity_main) {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
-        Toast.makeText(this, "fknfk", Toast.LENGTH_SHORT).show()
+        Toast.makeText(this, "vuiguiguigigghgyghyghygghyg", Toast.LENGTH_SHORT).show()
 
     }
 }
